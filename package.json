@@ -1,6 +1,6 @@
 {
     "name": "leaflet-layeredGeoJSON",
-    "version": "0.1",
+    "version": "0.1.0",
     "description": "Splits GeoJSON features up into multiple layers.",
     "devDependencies": {},
     "dependencies": {
