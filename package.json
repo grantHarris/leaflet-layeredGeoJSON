@@ -1,0 +1,19 @@
+{
+	"name": "leaflet-layeredGeoJSON",
+	"version": "0.1",
+	"description": "Splits GeoJSON features up into multiple layers.",
+	"devDependencies": {
+		"jshint": "~2.9.0",
+		"uglify-js": "~2.6.1"
+	},
+	"main": "dist/L.LayeredGeoJSON.js",
+	"scripts": {
+		"test": "jake test",
+		"prepublish": "jake"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/grantHarris/leaflet-layeredGeoJSON.git"
+	},
+	"keywords": ["gis", "map", "GeoJSON", "leaflet"]
+}
