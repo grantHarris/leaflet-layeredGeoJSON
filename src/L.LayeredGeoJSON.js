@@ -38,6 +38,13 @@ L.LayeredGeoJSON = L.GeoJSON.extend({
 
 	},
 
+	onRemove: function (map) {
+		this._map.off('zoomend', query);
+		this._map.off('dragend', query);
+		
+		L.GeoJSON.prototype.onRemove.call(this, map);
+	},
+
 	addData: function (geojson) {
 		var that = this;
 		Object.keys(this._layers).forEach(function(prop){
